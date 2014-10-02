@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D59D1B5D19DBAD990097DDD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D1B5C19DBAD990097DDD5 /* main.m */; };
+		D59D1B6019DBAD990097DDD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D1B5F19DBAD990097DDD5 /* AppDelegate.m */; };
+		D59D1B6319DBAD990097DDD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D1B6219DBAD990097DDD5 /* ViewController.m */; };
+		D59D1B6619DBAD990097DDD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D1B6419DBAD990097DDD5 /* Main.storyboard */; };
+		D59D1B6819DBAD990097DDD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59D1B6719DBAD990097DDD5 /* Images.xcassets */; };
+		D59D1B6B19DBAD990097DDD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59D1B6919DBAD990097DDD5 /* LaunchScreen.xib */; };
+		D59D1B7719DBAD990097DDD5 /* RallyHealthPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D1B7619DBAD990097DDD5 /* RallyHealthPickerTests.m */; };
+		D59D1B8819DBBE800097DDD5 /* ArrayData.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D1B8719DBBE800097DDD5 /* ArrayData.m */; };
+		D5A6490E19DC9C980082B142 /* CustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A6490D19DC9C980082B142 /* CustomPicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D59D1B7119DBAD990097DDD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59D1B4F19DBAD990097DDD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59D1B5619DBAD990097DDD5;
+			remoteInfo = RallyHealthPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D59D1B5719DBAD990097DDD5 /* RallyHealthPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RallyHealthPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59D1B5B19DBAD990097DDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59D1B5C19DBAD990097DDD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D59D1B5E19DBAD990097DDD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D59D1B5F19DBAD990097DDD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D59D1B6119DBAD990097DDD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D59D1B6219DBAD990097DDD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D59D1B6519DBAD990097DDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D59D1B6719DBAD990097DDD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D59D1B6A19DBAD990097DDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D59D1B7019DBAD990097DDD5 /* RallyHealthPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RallyHealthPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59D1B7519DBAD990097DDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59D1B7619DBAD990097DDD5 /* RallyHealthPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RallyHealthPickerTests.m; sourceTree = "<group>"; };
+		D59D1B8619DBBE800097DDD5 /* ArrayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayData.h; sourceTree = "<group>"; };
+		D59D1B8719DBBE800097DDD5 /* ArrayData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayData.m; sourceTree = "<group>"; };
+		D5A6490C19DC9C980082B142 /* CustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPicker.h; sourceTree = "<group>"; };
+		D5A6490D19DC9C980082B142 /* CustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59D1B5419DBAD990097DDD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D1B6D19DBAD990097DDD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D59D1B4E19DBAD990097DDD5 = {
+			isa = PBXGroup;
+			children = (
+				D59D1B5919DBAD990097DDD5 /* RallyHealthPicker */,
+				D59D1B7319DBAD990097DDD5 /* RallyHealthPickerTests */,
+				D59D1B5819DBAD990097DDD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D59D1B5819DBAD990097DDD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59D1B5719DBAD990097DDD5 /* RallyHealthPicker.app */,
+				D59D1B7019DBAD990097DDD5 /* RallyHealthPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59D1B5919DBAD990097DDD5 /* RallyHealthPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D59D1B5E19DBAD990097DDD5 /* AppDelegate.h */,
+				D59D1B5F19DBAD990097DDD5 /* AppDelegate.m */,
+				D59D1B6119DBAD990097DDD5 /* ViewController.h */,
+				D59D1B6219DBAD990097DDD5 /* ViewController.m */,
+				D59D1B6419DBAD990097DDD5 /* Main.storyboard */,
+				D59D1B6719DBAD990097DDD5 /* Images.xcassets */,
+				D59D1B6919DBAD990097DDD5 /* LaunchScreen.xib */,
+				D59D1B5A19DBAD990097DDD5 /* Supporting Files */,
+				D59D1B8619DBBE800097DDD5 /* ArrayData.h */,
+				D59D1B8719DBBE800097DDD5 /* ArrayData.m */,
+				D5A6490C19DC9C980082B142 /* CustomPicker.h */,
+				D5A6490D19DC9C980082B142 /* CustomPicker.m */,
+			);
+			path = RallyHealthPicker;
+			sourceTree = "<group>";
+		};
+		D59D1B5A19DBAD990097DDD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D59D1B5B19DBAD990097DDD5 /* Info.plist */,
+				D59D1B5C19DBAD990097DDD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D59D1B7319DBAD990097DDD5 /* RallyHealthPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D59D1B7619DBAD990097DDD5 /* RallyHealthPickerTests.m */,
+				D59D1B7419DBAD990097DDD5 /* Supporting Files */,
+			);
+			path = RallyHealthPickerTests;
+			sourceTree = "<group>";
+		};
+		D59D1B7419DBAD990097DDD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D59D1B7519DBAD990097DDD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59D1B5619DBAD990097DDD5 /* RallyHealthPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59D1B7A19DBAD990097DDD5 /* Build configuration list for PBXNativeTarget "RallyHealthPicker" */;
+			buildPhases = (
+				D59D1B5319DBAD990097DDD5 /* Sources */,
+				D59D1B5419DBAD990097DDD5 /* Frameworks */,
+				D59D1B5519DBAD990097DDD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RallyHealthPicker;
+			productName = RallyHealthPicker;
+			productReference = D59D1B5719DBAD990097DDD5 /* RallyHealthPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D59D1B6F19DBAD990097DDD5 /* RallyHealthPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59D1B7D19DBAD990097DDD5 /* Build configuration list for PBXNativeTarget "RallyHealthPickerTests" */;
+			buildPhases = (
+				D59D1B6C19DBAD990097DDD5 /* Sources */,
+				D59D1B6D19DBAD990097DDD5 /* Frameworks */,
+				D59D1B6E19DBAD990097DDD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59D1B7219DBAD990097DDD5 /* PBXTargetDependency */,
+			);
+			name = RallyHealthPickerTests;
+			productName = RallyHealthPickerTests;
+			productReference = D59D1B7019DBAD990097DDD5 /* RallyHealthPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59D1B4F19DBAD990097DDD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					D59D1B5619DBAD990097DDD5 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D59D1B6F19DBAD990097DDD5 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D59D1B5619DBAD990097DDD5;
+					};
+				};
+			};
+			buildConfigurationList = D59D1B5219DBAD990097DDD5 /* Build configuration list for PBXProject "RallyHealthPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59D1B4E19DBAD990097DDD5;
+			productRefGroup = D59D1B5819DBAD990097DDD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59D1B5619DBAD990097DDD5 /* RallyHealthPicker */,
+				D59D1B6F19DBAD990097DDD5 /* RallyHealthPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59D1B5519DBAD990097DDD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D1B6619DBAD990097DDD5 /* Main.storyboard in Resources */,
+				D59D1B6B19DBAD990097DDD5 /* LaunchScreen.xib in Resources */,
+				D59D1B6819DBAD990097DDD5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D1B6E19DBAD990097DDD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59D1B5319DBAD990097DDD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A6490E19DC9C980082B142 /* CustomPicker.m in Sources */,
+				D59D1B8819DBBE800097DDD5 /* ArrayData.m in Sources */,
+				D59D1B6319DBAD990097DDD5 /* ViewController.m in Sources */,
+				D59D1B6019DBAD990097DDD5 /* AppDelegate.m in Sources */,
+				D59D1B5D19DBAD990097DDD5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D1B6C19DBAD990097DDD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D1B7719DBAD990097DDD5 /* RallyHealthPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D59D1B7219DBAD990097DDD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59D1B5619DBAD990097DDD5 /* RallyHealthPicker */;
+			targetProxy = D59D1B7119DBAD990097DDD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D59D1B6419DBAD990097DDD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59D1B6519DBAD990097DDD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D59D1B6919DBAD990097DDD5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59D1B6A19DBAD990097DDD5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D59D1B7819DBAD990097DDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D59D1B7919DBAD990097DDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59D1B7B19DBAD990097DDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RallyHealthPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D59D1B7C19DBAD990097DDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RallyHealthPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D59D1B7E19DBAD990097DDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RallyHealthPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RallyHealthPicker.app/RallyHealthPicker";
+			};
+			name = Debug;
+		};
+		D59D1B7F19DBAD990097DDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RallyHealthPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RallyHealthPicker.app/RallyHealthPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59D1B5219DBAD990097DDD5 /* Build configuration list for PBXProject "RallyHealthPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D1B7819DBAD990097DDD5 /* Debug */,
+				D59D1B7919DBAD990097DDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59D1B7A19DBAD990097DDD5 /* Build configuration list for PBXNativeTarget "RallyHealthPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D1B7B19DBAD990097DDD5 /* Debug */,
+				D59D1B7C19DBAD990097DDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59D1B7D19DBAD990097DDD5 /* Build configuration list for PBXNativeTarget "RallyHealthPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D1B7E19DBAD990097DDD5 /* Debug */,
+				D59D1B7F19DBAD990097DDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59D1B4F19DBAD990097DDD5 /* Project object */;
+}
